@@ -1,0 +1,616 @@
+combination;blend;acc_exaggerate;acc_harvard;model;parameters
+['gender', 'target'];0;0.5256849315068494;0.5;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['gender', 'target'];0;0.5256849315068494;0.5;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['gender', 'target'];0;0.5;0.5;KNeighborsClassifier;{'n_neighbors': 9}
+['gender', 'target'];3;0.5256849315068494;0.49387755102040815;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['gender', 'target'];3;0.5256849315068494;0.49387755102040815;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 10}
+['gender', 'target'];3;0.5;0.49387755102040815;KNeighborsClassifier;{'n_neighbors': 5}
+['gender', 'target'];5;0.5256849315068494;0.5;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['gender', 'target'];5;0.5256849315068494;0.5;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 10}
+['gender', 'target'];5;0.5;0.5;KNeighborsClassifier;{'n_neighbors': 3}
+['gender', 'target'];15;0.5256849315068494;0.5023255813953489;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['gender', 'target'];15;0.5256849315068494;0.5023255813953489;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['gender', 'target'];15;0.5;0.5023255813953489;KNeighborsClassifier;{'n_neighbors': 3}
+['gender', 'target'];25;0.5256849315068494;0.5132275132275133;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['gender', 'target'];25;0.5256849315068494;0.5132275132275133;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['gender', 'target'];25;0.5256849315068494;0.5132275132275133;KNeighborsClassifier;{'n_neighbors': 9}
+['age', 'target'];0;0.5;0.5;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['age', 'target'];0;0.5;0.49206349206349204;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 10}
+['age', 'target'];0;0.5;0.5;KNeighborsClassifier;{'n_neighbors': 3}
+['age', 'target'];3;0.5;0.49387755102040815;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['age', 'target'];3;0.5;0.49387755102040815;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.5, 'n_estimators': 5}
+['age', 'target'];3;0.5;0.49387755102040815;KNeighborsClassifier;{'n_neighbors': 3}
+['age', 'target'];5;0.5;0.5;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['age', 'target'];5;0.5;0.5083333333333333;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['age', 'target'];5;0.5;0.5083333333333333;KNeighborsClassifier;{'n_neighbors': 3}
+['age', 'target'];15;0.5;0.5069767441860465;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['age', 'target'];15;0.5;0.49767441860465117;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 10}
+['age', 'target'];15;0.5;0.5023255813953489;KNeighborsClassifier;{'n_neighbors': 3}
+['age', 'target'];25;0.5;0.49206349206349204;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['age', 'target'];25;0.5;0.49206349206349204;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 300}
+['age', 'target'];25;0.5;0.5132275132275133;KNeighborsClassifier;{'n_neighbors': 3}
+['bmi', 'target'];0;0.5;0.5;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['bmi', 'target'];0;0.5;0.5;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['bmi', 'target'];0;0.5011415525114156;0.49603174603174605;KNeighborsClassifier;{'n_neighbors': 3}
+['bmi', 'target'];3;0.5;0.49387755102040815;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['bmi', 'target'];3;0.5011415525114156;0.4897959183673469;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 25}
+['bmi', 'target'];3;0.5011415525114156;0.4897959183673469;KNeighborsClassifier;{'n_neighbors': 3}
+['bmi', 'target'];5;0.5;0.5;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['bmi', 'target'];5;0.5;0.5;RandomForestClassifier;{'max_depth': 10, 'max_features': 0.5, 'n_estimators': 5}
+['bmi', 'target'];5;0.5;0.5;KNeighborsClassifier;{'n_neighbors': 3}
+['bmi', 'target'];15;0.5;0.49767441860465117;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['bmi', 'target'];15;0.5;0.49767441860465117;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['bmi', 'target'];15;0.4988584474885845;0.5023255813953489;KNeighborsClassifier;{'n_neighbors': 9}
+['bmi', 'target'];25;0.5;0.48677248677248675;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['bmi', 'target'];25;0.5011415525114156;0.5079365079365079;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.5, 'n_estimators': 5}
+['bmi', 'target'];25;0.5011415525114156;0.5079365079365079;KNeighborsClassifier;{'n_neighbors': 3}
+['hypertension', 'target'];0;0.5045662100456622;0.5238095238095238;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['hypertension', 'target'];0;0.5;0.5;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 25}
+['hypertension', 'target'];0;0.5045662100456622;0.5238095238095238;KNeighborsClassifier;{'n_neighbors': 3}
+['hypertension', 'target'];3;0.5045662100456622;0.5265306122448979;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['hypertension', 'target'];3;0.5045662100456622;0.5265306122448979;RandomForestClassifier;{'max_depth': 10, 'max_features': 0.3, 'n_estimators': 5}
+['hypertension', 'target'];3;0.5;0.49387755102040815;KNeighborsClassifier;{'n_neighbors': 3}
+['hypertension', 'target'];5;0.5045662100456622;0.5333333333333333;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['hypertension', 'target'];5;0.5045662100456622;0.5333333333333333;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.5, 'n_estimators': 5}
+['hypertension', 'target'];5;0.5;0.5;KNeighborsClassifier;{'n_neighbors': 7}
+['hypertension', 'target'];15;0.5045662100456622;0.5302325581395348;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['hypertension', 'target'];15;0.5;0.49767441860465117;RandomForestClassifier;{'max_depth': 10, 'max_features': 0.5, 'n_estimators': 10}
+['hypertension', 'target'];15;0.5045662100456622;0.5302325581395348;KNeighborsClassifier;{'n_neighbors': 5}
+['hypertension', 'target'];25;0.5045662100456622;0.5291005291005291;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['hypertension', 'target'];25;0.5045662100456622;0.5291005291005291;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.7, 'n_estimators': 5}
+['hypertension', 'target'];25;0.5045662100456622;0.5291005291005291;KNeighborsClassifier;{'n_neighbors': 3}
+['diabetes', 'target'];0;0.5199771689497716;0.40476190476190477;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['diabetes', 'target'];0;0.5199771689497716;0.40476190476190477;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['diabetes', 'target'];0;0.5;0.5;KNeighborsClassifier;{'n_neighbors': 3}
+['diabetes', 'target'];3;0.5199771689497716;0.4;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['diabetes', 'target'];3;0.5199771689497716;0.4;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['diabetes', 'target'];3;0.5199771689497716;0.4;KNeighborsClassifier;{'n_neighbors': 7}
+['diabetes', 'target'];5;0.5199771689497716;0.4041666666666667;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['diabetes', 'target'];5;0.5199771689497716;0.4041666666666667;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['diabetes', 'target'];5;0.5;0.5;KNeighborsClassifier;{'n_neighbors': 5}
+['diabetes', 'target'];15;0.5199771689497716;0.40930232558139534;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['diabetes', 'target'];15;0.5199771689497716;0.40930232558139534;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 10}
+['diabetes', 'target'];15;0.5;0.49767441860465117;KNeighborsClassifier;{'n_neighbors': 3}
+['diabetes', 'target'];25;0.5199771689497716;0.4074074074074074;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['diabetes', 'target'];25;0.5199771689497716;0.4074074074074074;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['diabetes', 'target'];25;0.5;0.48677248677248675;KNeighborsClassifier;{'n_neighbors': 9}
+['heart_failure', 'target'];0;0.5171232876712328;0.47619047619047616;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['heart_failure', 'target'];0;0.5171232876712328;0.47619047619047616;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['heart_failure', 'target'];0;0.5171232876712328;0.47619047619047616;KNeighborsClassifier;{'n_neighbors': 3}
+['heart_failure', 'target'];3;0.5171232876712328;0.4857142857142857;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['heart_failure', 'target'];3;0.5;0.5061224489795918;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['heart_failure', 'target'];3;0.5;0.49387755102040815;KNeighborsClassifier;{'n_neighbors': 3}
+['heart_failure', 'target'];5;0.5171232876712328;0.4791666666666667;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['heart_failure', 'target'];5;0.5171232876712328;0.4791666666666667;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['heart_failure', 'target'];5;0.5;0.5;KNeighborsClassifier;{'n_neighbors': 3}
+['heart_failure', 'target'];15;0.5171232876712328;0.4744186046511628;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['heart_failure', 'target'];15;0.5171232876712328;0.4744186046511628;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['heart_failure', 'target'];15;0.5;0.49767441860465117;KNeighborsClassifier;{'n_neighbors': 7}
+['heart_failure', 'target'];25;0.5171232876712328;0.48148148148148145;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['heart_failure', 'target'];25;0.5171232876712328;0.48148148148148145;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 25}
+['heart_failure', 'target'];25;0.5171232876712328;0.48148148148148145;KNeighborsClassifier;{'n_neighbors': 5}
+['mmrc', 'target'];0;0.5165525114155252;0.5;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['mmrc', 'target'];0;0.5165525114155252;0.5;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['mmrc', 'target'];0;0.5;0.5;KNeighborsClassifier;{'n_neighbors': 3}
+['mmrc', 'target'];3;0.5165525114155252;0.5061224489795918;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['mmrc', 'target'];3;0.5165525114155252;0.5061224489795918;RandomForestClassifier;{'max_depth': 10, 'max_features': 0.7, 'n_estimators': 5}
+['mmrc', 'target'];3;0.4834474885844749;0.49387755102040815;KNeighborsClassifier;{'n_neighbors': 3}
+['mmrc', 'target'];5;0.5165525114155252;0.5;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['mmrc', 'target'];5;0.5165525114155252;0.5;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['mmrc', 'target'];5;0.5165525114155252;0.5;KNeighborsClassifier;{'n_neighbors': 3}
+['mmrc', 'target'];15;0.5165525114155252;0.4930232558139535;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['mmrc', 'target'];15;0.5165525114155252;0.4930232558139535;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 10}
+['mmrc', 'target'];15;0.5165525114155252;0.4930232558139535;KNeighborsClassifier;{'n_neighbors': 3}
+['mmrc', 'target'];25;0.5165525114155252;0.49206349206349204;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['mmrc', 'target'];25;0.5165525114155252;0.49206349206349204;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 25}
+['mmrc', 'target'];25;0.5;0.5132275132275133;KNeighborsClassifier;{'n_neighbors': 7}
+['fever', 'target'];0;0.5034246575342466;0.44047619047619047;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['fever', 'target'];0;0.5;0.5;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['fever', 'target'];0;0.5034246575342466;0.44047619047619047;KNeighborsClassifier;{'n_neighbors': 7}
+['fever', 'target'];3;0.5034246575342466;0.4326530612244898;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['fever', 'target'];3;0.5034246575342466;0.4326530612244898;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 10}
+['fever', 'target'];3;0.5034246575342466;0.4326530612244898;KNeighborsClassifier;{'n_neighbors': 7}
+['fever', 'target'];5;0.5034246575342466;0.44166666666666665;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['fever', 'target'];5;0.5034246575342466;0.44166666666666665;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.5, 'n_estimators': 10}
+['fever', 'target'];5;0.4965753424657534;0.5583333333333333;KNeighborsClassifier;{'n_neighbors': 9}
+['fever', 'target'];15;0.5034246575342466;0.4418604651162791;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 300}
+['fever', 'target'];15;0.5034246575342466;0.4418604651162791;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['fever', 'target'];15;0.5;0.49767441860465117;KNeighborsClassifier;{'n_neighbors': 7}
+['fever', 'target'];25;0.5;0.48677248677248675;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 300}
+['fever', 'target'];25;0.5034246575342466;0.4603174603174603;RandomForestClassifier;{'max_depth': 25, 'max_features': 0.3, 'n_estimators': 5}
+['fever', 'target'];25;0.5;0.5132275132275133;KNeighborsClassifier;{'n_neighbors': 3}
+['dyspnoea', 'target'];0;0.5051369863013698;0.5357142857142857;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['dyspnoea', 'target'];0;0.5051369863013698;0.5357142857142857;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.5, 'n_estimators': 300}
+['dyspnoea', 'target'];0;0.5;0.5;KNeighborsClassifier;{'n_neighbors': 9}
+['dyspnoea', 'target'];3;0.5051369863013698;0.5224489795918368;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['dyspnoea', 'target'];3;0.5051369863013698;0.5224489795918368;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['dyspnoea', 'target'];3;0.5051369863013698;0.5224489795918368;KNeighborsClassifier;{'n_neighbors': 5}
+['dyspnoea', 'target'];5;0.5051369863013698;0.5208333333333334;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['dyspnoea', 'target'];5;0.5;0.5;RandomForestClassifier;{'max_depth': 10, 'max_features': 0.7, 'n_estimators': 5}
+['dyspnoea', 'target'];5;0.5051369863013698;0.5208333333333334;KNeighborsClassifier;{'n_neighbors': 3}
+['dyspnoea', 'target'];15;0.5051369863013698;0.5209302325581395;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['dyspnoea', 'target'];15;0.5051369863013698;0.5209302325581395;RandomForestClassifier;{'max_depth': 10, 'max_features': 0.7, 'n_estimators': 5}
+['dyspnoea', 'target'];15;0.5051369863013698;0.5209302325581395;KNeighborsClassifier;{'n_neighbors': 5}
+['dyspnoea', 'target'];25;0.5051369863013698;0.5185185185185185;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['dyspnoea', 'target'];25;0.5051369863013698;0.5185185185185185;RandomForestClassifier;{'max_depth': 10, 'max_features': 0.3, 'n_estimators': 25}
+['dyspnoea', 'target'];25;0.5051369863013698;0.5185185185185185;KNeighborsClassifier;{'n_neighbors': 3}
+['cancer', 'target'];0;0.5148401826484018;0.4523809523809524;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['cancer', 'target'];0;0.5;0.5;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['cancer', 'target'];0;0.5148401826484018;0.4523809523809524;KNeighborsClassifier;{'n_neighbors': 3}
+['cancer', 'target'];3;0.5148401826484018;0.4448979591836735;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['cancer', 'target'];3;0.5148401826484018;0.4448979591836735;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['cancer', 'target'];3;0.5148401826484018;0.4448979591836735;KNeighborsClassifier;{'n_neighbors': 5}
+['cancer', 'target'];5;0.5148401826484018;0.45;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['cancer', 'target'];5;0.5148401826484018;0.45;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 25}
+['cancer', 'target'];5;0.4851598173515982;0.55;KNeighborsClassifier;{'n_neighbors': 5}
+['cancer', 'target'];15;0.5148401826484018;0.46511627906976744;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['cancer', 'target'];15;0.5148401826484018;0.46511627906976744;RandomForestClassifier;{'max_depth': 25, 'max_features': 0.5, 'n_estimators': 5}
+['cancer', 'target'];15;0.5;0.5023255813953489;KNeighborsClassifier;{'n_neighbors': 5}
+['cancer', 'target'];25;0.5148401826484018;0.4708994708994709;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['cancer', 'target'];25;0.5148401826484018;0.4708994708994709;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['cancer', 'target'];25;0.5;0.5132275132275133;KNeighborsClassifier;{'n_neighbors': 3}
+['myocardial_infarct', 'target'];0;0.5102739726027398;0.5119047619047619;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['myocardial_infarct', 'target'];0;0.5102739726027398;0.5119047619047619;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 25}
+['myocardial_infarct', 'target'];0;0.5102739726027398;0.5119047619047619;KNeighborsClassifier;{'n_neighbors': 3}
+['myocardial_infarct', 'target'];3;0.5102739726027398;0.5020408163265306;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['myocardial_infarct', 'target'];3;0.5102739726027398;0.5020408163265306;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 25}
+['myocardial_infarct', 'target'];3;0.5;0.49387755102040815;KNeighborsClassifier;{'n_neighbors': 3}
+['myocardial_infarct', 'target'];5;0.5102739726027398;0.5041666666666667;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['myocardial_infarct', 'target'];5;0.5102739726027398;0.5041666666666667;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 75}
+['myocardial_infarct', 'target'];5;0.5;0.5;KNeighborsClassifier;{'n_neighbors': 7}
+['myocardial_infarct', 'target'];15;0.5102739726027398;0.5116279069767442;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['myocardial_infarct', 'target'];15;0.5102739726027398;0.5116279069767442;RandomForestClassifier;{'max_depth': 10, 'max_features': 0.7, 'n_estimators': 5}
+['myocardial_infarct', 'target'];15;0.4897260273972603;0.4883720930232558;KNeighborsClassifier;{'n_neighbors': 7}
+['myocardial_infarct', 'target'];25;0.5102739726027398;0.5079365079365079;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['myocardial_infarct', 'target'];25;0.5102739726027398;0.5079365079365079;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 75}
+['myocardial_infarct', 'target'];25;0.5102739726027398;0.5079365079365079;KNeighborsClassifier;{'n_neighbors': 3}
+['stroke', 'target'];0;0.5011415525114156;0.5436507936507936;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['stroke', 'target'];0;0.4988584474885845;0.45634920634920634;RandomForestClassifier;{'max_depth': 10, 'max_features': 0.5, 'n_estimators': 5}
+['stroke', 'target'];0;0.4988584474885845;0.45634920634920634;KNeighborsClassifier;{'n_neighbors': 3}
+['stroke', 'target'];3;0.5;0.49387755102040815;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['stroke', 'target'];3;0.5;0.49387755102040815;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.5, 'n_estimators': 5}
+['stroke', 'target'];3;0.4988584474885845;0.4489795918367347;KNeighborsClassifier;{'n_neighbors': 3}
+['stroke', 'target'];5;0.5011415525114156;0.5458333333333333;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['stroke', 'target'];5;0.5011415525114156;0.5458333333333333;RandomForestClassifier;{'max_depth': 25, 'max_features': 0.3, 'n_estimators': 5}
+['stroke', 'target'];5;0.5;0.5;KNeighborsClassifier;{'n_neighbors': 3}
+['stroke', 'target'];15;0.5011415525114156;0.5441860465116279;XGBClassifier;{'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 100}
+['stroke', 'target'];15;0.5011415525114156;0.5441860465116279;RandomForestClassifier;{'max_depth': 10, 'max_features': 0.5, 'n_estimators': 5}
+['stroke', 'target'];15;0.4988584474885845;0.4558139534883721;KNeighborsClassifier;{'n_neighbors': 5}
+['stroke', 'target'];25;0.5011415525114156;0.5396825396825397;XGBClassifier;{'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 300}
+['stroke', 'target'];25;0.5011415525114156;0.5396825396825397;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.7, 'n_estimators': 5}
+['stroke', 'target'];25;0.4988584474885845;0.4603174603174603;KNeighborsClassifier;{'n_neighbors': 3}
+['gender', 'age', 'target'];0;0.5256849315068494;0.5;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['gender', 'age', 'target'];0;0.5256849315068494;0.49206349206349204;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['gender', 'age', 'target'];0;0.5256849315068494;0.49206349206349204;KNeighborsClassifier;{'n_neighbors': 9}
+['gender', 'age', 'target'];3;0.5256849315068494;0.49387755102040815;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['gender', 'age', 'target'];3;0.5256849315068494;0.4857142857142857;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['gender', 'age', 'target'];3;0.5;0.4857142857142857;KNeighborsClassifier;{'n_neighbors': 5}
+['gender', 'age', 'target'];5;0.5256849315068494;0.5;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['gender', 'age', 'target'];5;0.5256849315068494;0.49166666666666664;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['gender', 'age', 'target'];5;0.5;0.5;KNeighborsClassifier;{'n_neighbors': 7}
+['gender', 'age', 'target'];15;0.5256849315068494;0.5023255813953489;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['gender', 'age', 'target'];15;0.5256849315068494;0.4930232558139535;RandomForestClassifier;{'max_depth': 10, 'max_features': 0.3, 'n_estimators': 10}
+['gender', 'age', 'target'];15;0.5;0.4930232558139535;KNeighborsClassifier;{'n_neighbors': 7}
+['gender', 'age', 'target'];25;0.5256849315068494;0.5132275132275133;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['gender', 'age', 'target'];25;0.5256849315068494;0.5079365079365079;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['gender', 'age', 'target'];25;0.5256849315068494;0.5079365079365079;KNeighborsClassifier;{'n_neighbors': 9}
+['gender', 'bmi', 'target'];0;0.5256849315068494;0.5;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['gender', 'bmi', 'target'];0;0.5256849315068494;0.49603174603174605;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 10}
+['gender', 'bmi', 'target'];0;0.4988584474885845;0.5;KNeighborsClassifier;{'n_neighbors': 9}
+['gender', 'bmi', 'target'];3;0.5256849315068494;0.49387755102040815;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['gender', 'bmi', 'target'];3;0.5256849315068494;0.4897959183673469;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['gender', 'bmi', 'target'];3;0.5;0.49387755102040815;KNeighborsClassifier;{'n_neighbors': 5}
+['gender', 'bmi', 'target'];5;0.5256849315068494;0.5;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['gender', 'bmi', 'target'];5;0.5256849315068494;0.49583333333333335;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['gender', 'bmi', 'target'];5;0.5;0.5;KNeighborsClassifier;{'n_neighbors': 3}
+['gender', 'bmi', 'target'];15;0.5256849315068494;0.5023255813953489;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['gender', 'bmi', 'target'];15;0.5256849315068494;0.49767441860465117;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['gender', 'bmi', 'target'];15;0.5011415525114156;0.5023255813953489;KNeighborsClassifier;{'n_neighbors': 3}
+['gender', 'bmi', 'target'];25;0.5256849315068494;0.5132275132275133;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['gender', 'bmi', 'target'];25;0.5256849315068494;0.5079365079365079;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['gender', 'bmi', 'target'];25;0.5245433789954338;0.5132275132275133;KNeighborsClassifier;{'n_neighbors': 9}
+['gender', 'hypertension', 'target'];0;0.531392694063927;0.5238095238095238;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['gender', 'hypertension', 'target'];0;0.531392694063927;0.5238095238095238;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.5, 'n_estimators': 5}
+['gender', 'hypertension', 'target'];0;0.5;0.5;KNeighborsClassifier;{'n_neighbors': 9}
+['gender', 'hypertension', 'target'];3;0.531392694063927;0.5265306122448979;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['gender', 'hypertension', 'target'];3;0.531392694063927;0.5265306122448979;RandomForestClassifier;{'max_depth': 25, 'max_features': 0.3, 'n_estimators': 10}
+['gender', 'hypertension', 'target'];3;0.5005707762557078;0.5061224489795918;KNeighborsClassifier;{'n_neighbors': 9}
+['gender', 'hypertension', 'target'];5;0.531392694063927;0.5333333333333333;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['gender', 'hypertension', 'target'];5;0.531392694063927;0.5333333333333333;RandomForestClassifier;{'max_depth': 25, 'max_features': 0.3, 'n_estimators': 5}
+['gender', 'hypertension', 'target'];5;0.5005707762557078;0.5;KNeighborsClassifier;{'n_neighbors': 9}
+['gender', 'hypertension', 'target'];15;0.531392694063927;0.5302325581395348;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['gender', 'hypertension', 'target'];15;0.5308219178082192;0.5302325581395348;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.7, 'n_estimators': 10}
+['gender', 'hypertension', 'target'];15;0.5045662100456622;0.5302325581395348;KNeighborsClassifier;{'n_neighbors': 3}
+['gender', 'hypertension', 'target'];25;0.531392694063927;0.5291005291005291;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['gender', 'hypertension', 'target'];25;0.531392694063927;0.5291005291005291;RandomForestClassifier;{'max_depth': 10, 'max_features': 0.7, 'n_estimators': 5}
+['gender', 'hypertension', 'target'];25;0.5308219178082192;0.5291005291005291;KNeighborsClassifier;{'n_neighbors': 9}
+['gender', 'diabetes', 'target'];0;0.5256849315068494;0.5;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['gender', 'diabetes', 'target'];0;0.5234018264840182;0.5;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.7, 'n_estimators': 10}
+['gender', 'diabetes', 'target'];0;0.4977168949771689;0.5;KNeighborsClassifier;{'n_neighbors': 3}
+['gender', 'diabetes', 'target'];3;0.5256849315068494;0.49387755102040815;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['gender', 'diabetes', 'target'];3;0.5256849315068494;0.49387755102040815;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['gender', 'diabetes', 'target'];3;0.5234018264840182;0.49387755102040815;KNeighborsClassifier;{'n_neighbors': 5}
+['gender', 'diabetes', 'target'];5;0.5256849315068494;0.5;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['gender', 'diabetes', 'target'];5;0.5234018264840182;0.5;RandomForestClassifier;{'max_depth': 10, 'max_features': 0.5, 'n_estimators': 5}
+['gender', 'diabetes', 'target'];5;0.5;0.5;KNeighborsClassifier;{'n_neighbors': 5}
+['gender', 'diabetes', 'target'];15;0.5256849315068494;0.5023255813953489;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['gender', 'diabetes', 'target'];15;0.5256849315068494;0.5023255813953489;RandomForestClassifier;{'max_depth': 10, 'max_features': 0.5, 'n_estimators': 10}
+['gender', 'diabetes', 'target'];15;0.5256849315068494;0.5023255813953489;KNeighborsClassifier;{'n_neighbors': 7}
+['gender', 'diabetes', 'target'];25;0.5256849315068494;0.5132275132275133;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['gender', 'diabetes', 'target'];25;0.5234018264840182;0.5132275132275133;RandomForestClassifier;{'max_depth': 25, 'max_features': 0.7, 'n_estimators': 5}
+['gender', 'diabetes', 'target'];25;0.5011415525114156;0.5925925925925926;KNeighborsClassifier;{'n_neighbors': 3}
+['gender', 'heart_failure', 'target'];0;0.5279680365296804;0.47619047619047616;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 300}
+['gender', 'heart_failure', 'target'];0;0.5279680365296804;0.47619047619047616;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 25}
+['gender', 'heart_failure', 'target'];0;0.5;0.5;KNeighborsClassifier;{'n_neighbors': 7}
+['gender', 'heart_failure', 'target'];3;0.5256849315068494;0.49387755102040815;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['gender', 'heart_failure', 'target'];3;0.5256849315068494;0.49387755102040815;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 25}
+['gender', 'heart_failure', 'target'];3;0.5256849315068494;0.49387755102040815;KNeighborsClassifier;{'n_neighbors': 7}
+['gender', 'heart_failure', 'target'];5;0.5279680365296804;0.4791666666666667;XGBClassifier;{'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 300}
+['gender', 'heart_failure', 'target'];5;0.5279680365296804;0.4791666666666667;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['gender', 'heart_failure', 'target'];5;0.5256849315068494;0.5;KNeighborsClassifier;{'n_neighbors': 5}
+['gender', 'heart_failure', 'target'];15;0.5279680365296804;0.4744186046511628;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 300}
+['gender', 'heart_failure', 'target'];15;0.5279680365296804;0.4744186046511628;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 25}
+['gender', 'heart_failure', 'target'];15;0.4868721461187215;0.5255813953488372;KNeighborsClassifier;{'n_neighbors': 3}
+['gender', 'heart_failure', 'target'];25;0.5279680365296804;0.48148148148148145;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 300}
+['gender', 'heart_failure', 'target'];25;0.5279680365296804;0.48148148148148145;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 10}
+['gender', 'heart_failure', 'target'];25;0.4977168949771689;0.5185185185185185;KNeighborsClassifier;{'n_neighbors': 9}
+['gender', 'mmrc', 'target'];0;0.5319634703196348;0.5;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['gender', 'mmrc', 'target'];0;0.5319634703196348;0.5;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['gender', 'mmrc', 'target'];0;0.5319634703196348;0.5;KNeighborsClassifier;{'n_neighbors': 9}
+['gender', 'mmrc', 'target'];3;0.5319634703196348;0.5061224489795918;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['gender', 'mmrc', 'target'];3;0.5319634703196348;0.5061224489795918;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['gender', 'mmrc', 'target'];3;0.5102739726027398;0.49387755102040815;KNeighborsClassifier;{'n_neighbors': 3}
+['gender', 'mmrc', 'target'];5;0.5319634703196348;0.5;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['gender', 'mmrc', 'target'];5;0.5319634703196348;0.5;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['gender', 'mmrc', 'target'];5;0.5319634703196348;0.5;KNeighborsClassifier;{'n_neighbors': 3}
+['gender', 'mmrc', 'target'];15;0.5319634703196348;0.4930232558139535;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['gender', 'mmrc', 'target'];15;0.5319634703196348;0.4930232558139535;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['gender', 'mmrc', 'target'];15;0.5319634703196348;0.4930232558139535;KNeighborsClassifier;{'n_neighbors': 9}
+['gender', 'mmrc', 'target'];25;0.5319634703196348;0.49206349206349204;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['gender', 'mmrc', 'target'];25;0.5319634703196348;0.49206349206349204;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['gender', 'mmrc', 'target'];25;0.4937214611872146;0.5079365079365079;KNeighborsClassifier;{'n_neighbors': 9}
+['gender', 'fever', 'target'];0;0.5256849315068494;0.5;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['gender', 'fever', 'target'];0;0.5256849315068494;0.5;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 10}
+['gender', 'fever', 'target'];0;0.5;0.5;KNeighborsClassifier;{'n_neighbors': 9}
+['gender', 'fever', 'target'];3;0.5256849315068494;0.49387755102040815;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['gender', 'fever', 'target'];3;0.5256849315068494;0.49387755102040815;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['gender', 'fever', 'target'];3;0.5045662100456622;0.49387755102040815;KNeighborsClassifier;{'n_neighbors': 5}
+['gender', 'fever', 'target'];5;0.5256849315068494;0.5;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['gender', 'fever', 'target'];5;0.5256849315068494;0.5;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 10}
+['gender', 'fever', 'target'];5;0.5011415525114156;0.5583333333333333;KNeighborsClassifier;{'n_neighbors': 3}
+['gender', 'fever', 'target'];15;0.5256849315068494;0.5023255813953489;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['gender', 'fever', 'target'];15;0.5256849315068494;0.5023255813953489;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['gender', 'fever', 'target'];15;0.5045662100456622;0.5023255813953489;KNeighborsClassifier;{'n_neighbors': 5}
+['gender', 'fever', 'target'];25;0.5256849315068494;0.5132275132275133;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['gender', 'fever', 'target'];25;0.5256849315068494;0.5132275132275133;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['gender', 'fever', 'target'];25;0.5045662100456622;0.5132275132275133;KNeighborsClassifier;{'n_neighbors': 3}
+['gender', 'dyspnoea', 'target'];0;0.5279680365296804;0.5357142857142857;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['gender', 'dyspnoea', 'target'];0;0.5279680365296804;0.5357142857142857;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.5, 'n_estimators': 5}
+['gender', 'dyspnoea', 'target'];0;0.5;0.5;KNeighborsClassifier;{'n_neighbors': 3}
+['gender', 'dyspnoea', 'target'];3;0.5279680365296804;0.5224489795918368;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['gender', 'dyspnoea', 'target'];3;0.5279680365296804;0.5224489795918368;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.5, 'n_estimators': 10}
+['gender', 'dyspnoea', 'target'];3;0.5051369863013698;0.5224489795918368;KNeighborsClassifier;{'n_neighbors': 5}
+['gender', 'dyspnoea', 'target'];5;0.5279680365296804;0.5208333333333334;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['gender', 'dyspnoea', 'target'];5;0.5279680365296804;0.5208333333333334;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['gender', 'dyspnoea', 'target'];5;0.5279680365296804;0.5208333333333334;KNeighborsClassifier;{'n_neighbors': 3}
+['gender', 'dyspnoea', 'target'];15;0.5279680365296804;0.5209302325581395;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['gender', 'dyspnoea', 'target'];15;0.5279680365296804;0.5209302325581395;RandomForestClassifier;{'max_depth': 10, 'max_features': 0.5, 'n_estimators': 5}
+['gender', 'dyspnoea', 'target'];15;0.5051369863013698;0.5209302325581395;KNeighborsClassifier;{'n_neighbors': 5}
+['gender', 'dyspnoea', 'target'];25;0.5279680365296804;0.5185185185185185;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['gender', 'dyspnoea', 'target'];25;0.5279680365296804;0.5185185185185185;RandomForestClassifier;{'max_depth': 10, 'max_features': 0.3, 'n_estimators': 5}
+['gender', 'dyspnoea', 'target'];25;0.5;0.48677248677248675;KNeighborsClassifier;{'n_neighbors': 9}
+['gender', 'cancer', 'target'];0;0.5256849315068494;0.5;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['gender', 'cancer', 'target'];0;0.5256849315068494;0.5;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 25}
+['gender', 'cancer', 'target'];0;0.5159817351598174;0.5;KNeighborsClassifier;{'n_neighbors': 5}
+['gender', 'cancer', 'target'];3;0.5256849315068494;0.49387755102040815;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['gender', 'cancer', 'target'];3;0.5256849315068494;0.49387755102040815;RandomForestClassifier;{'max_depth': 10, 'max_features': 0.5, 'n_estimators': 10}
+['gender', 'cancer', 'target'];3;0.5159817351598174;0.49387755102040815;KNeighborsClassifier;{'n_neighbors': 5}
+['gender', 'cancer', 'target'];5;0.5256849315068494;0.5;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['gender', 'cancer', 'target'];5;0.5256849315068494;0.5;RandomForestClassifier;{'max_depth': 10, 'max_features': 0.5, 'n_estimators': 10}
+['gender', 'cancer', 'target'];5;0.5;0.5;KNeighborsClassifier;{'n_neighbors': 5}
+['gender', 'cancer', 'target'];15;0.5256849315068494;0.5023255813953489;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['gender', 'cancer', 'target'];15;0.5256849315068494;0.5023255813953489;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.5, 'n_estimators': 5}
+['gender', 'cancer', 'target'];15;0.5159817351598174;0.5023255813953489;KNeighborsClassifier;{'n_neighbors': 5}
+['gender', 'cancer', 'target'];25;0.5256849315068494;0.5132275132275133;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['gender', 'cancer', 'target'];25;0.5256849315068494;0.5132275132275133;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.7, 'n_estimators': 25}
+['gender', 'cancer', 'target'];25;0.5159817351598174;0.5132275132275133;KNeighborsClassifier;{'n_neighbors': 3}
+['gender', 'myocardial_infarct', 'target'];0;0.5268264840182648;0.5119047619047619;XGBClassifier;{'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 300}
+['gender', 'myocardial_infarct', 'target'];0;0.5268264840182648;0.5119047619047619;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 75}
+['gender', 'myocardial_infarct', 'target'];0;0.5;0.5;KNeighborsClassifier;{'n_neighbors': 9}
+['gender', 'myocardial_infarct', 'target'];3;0.5268264840182648;0.5020408163265306;XGBClassifier;{'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 300}
+['gender', 'myocardial_infarct', 'target'];3;0.5268264840182648;0.5020408163265306;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 25}
+['gender', 'myocardial_infarct', 'target'];3;0.5102739726027398;0.5020408163265306;KNeighborsClassifier;{'n_neighbors': 7}
+['gender', 'myocardial_infarct', 'target'];5;0.5268264840182648;0.5041666666666667;XGBClassifier;{'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 300}
+['gender', 'myocardial_infarct', 'target'];5;0.5268264840182648;0.5041666666666667;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 25}
+['gender', 'myocardial_infarct', 'target'];5;0.5;0.5;KNeighborsClassifier;{'n_neighbors': 9}
+['gender', 'myocardial_infarct', 'target'];15;0.5268264840182648;0.5116279069767442;XGBClassifier;{'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 300}
+['gender', 'myocardial_infarct', 'target'];15;0.5268264840182648;0.5116279069767442;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['gender', 'myocardial_infarct', 'target'];15;0.5;0.49767441860465117;KNeighborsClassifier;{'n_neighbors': 9}
+['gender', 'myocardial_infarct', 'target'];25;0.5268264840182648;0.5079365079365079;XGBClassifier;{'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 300}
+['gender', 'myocardial_infarct', 'target'];25;0.5268264840182648;0.5079365079365079;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 10}
+['gender', 'myocardial_infarct', 'target'];25;0.5102739726027398;0.5079365079365079;KNeighborsClassifier;{'n_neighbors': 3}
+['gender', 'stroke', 'target'];0;0.5268264840182648;0.5;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['gender', 'stroke', 'target'];0;0.5268264840182648;0.45634920634920634;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.5, 'n_estimators': 5}
+['gender', 'stroke', 'target'];0;0.5;0.5;KNeighborsClassifier;{'n_neighbors': 3}
+['gender', 'stroke', 'target'];3;0.5268264840182648;0.49387755102040815;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['gender', 'stroke', 'target'];3;0.5268264840182648;0.49387755102040815;RandomForestClassifier;{'max_depth': 25, 'max_features': 0.3, 'n_estimators': 5}
+['gender', 'stroke', 'target'];3;0.5;0.4489795918367347;KNeighborsClassifier;{'n_neighbors': 5}
+['gender', 'stroke', 'target'];5;0.5268264840182648;0.5;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['gender', 'stroke', 'target'];5;0.5268264840182648;0.45416666666666666;RandomForestClassifier;{'max_depth': 10, 'max_features': 0.7, 'n_estimators': 25}
+['gender', 'stroke', 'target'];5;0.5;0.5;KNeighborsClassifier;{'n_neighbors': 3}
+['gender', 'stroke', 'target'];15;0.5268264840182648;0.5023255813953489;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['gender', 'stroke', 'target'];15;0.5268264840182648;0.5023255813953489;RandomForestClassifier;{'max_depth': 25, 'max_features': 0.5, 'n_estimators': 5}
+['gender', 'stroke', 'target'];15;0.4731735159817352;0.49767441860465117;KNeighborsClassifier;{'n_neighbors': 7}
+['gender', 'stroke', 'target'];25;0.5268264840182648;0.5132275132275133;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['gender', 'stroke', 'target'];25;0.5268264840182648;0.5132275132275133;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.7, 'n_estimators': 5}
+['gender', 'stroke', 'target'];25;0.5268264840182648;0.5132275132275133;KNeighborsClassifier;{'n_neighbors': 9}
+['age', 'bmi', 'target'];0;0.5;0.5;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['age', 'bmi', 'target'];0;0.5011415525114156;0.49603174603174605;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['age', 'bmi', 'target'];0;0.5011415525114156;0.49603174603174605;KNeighborsClassifier;{'n_neighbors': 3}
+['age', 'bmi', 'target'];3;0.5;0.49387755102040815;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['age', 'bmi', 'target'];3;0.5;0.5142857142857142;RandomForestClassifier;{'max_depth': 10, 'max_features': 0.7, 'n_estimators': 5}
+['age', 'bmi', 'target'];3;0.5011415525114156;0.4897959183673469;KNeighborsClassifier;{'n_neighbors': 3}
+['age', 'bmi', 'target'];5;0.5;0.5;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['age', 'bmi', 'target'];5;0.5;0.5083333333333333;RandomForestClassifier;{'max_depth': 10, 'max_features': 0.5, 'n_estimators': 25}
+['age', 'bmi', 'target'];5;0.5;0.5083333333333333;KNeighborsClassifier;{'n_neighbors': 3}
+['age', 'bmi', 'target'];15;0.5;0.5069767441860465;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['age', 'bmi', 'target'];15;0.5;0.49767441860465117;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 10}
+['age', 'bmi', 'target'];15;0.5011415525114156;0.49767441860465117;KNeighborsClassifier;{'n_neighbors': 3}
+['age', 'bmi', 'target'];25;0.5;0.49206349206349204;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['age', 'bmi', 'target'];25;0.5011415525114156;0.5079365079365079;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.7, 'n_estimators': 25}
+['age', 'bmi', 'target'];25;0.5011415525114156;0.5079365079365079;KNeighborsClassifier;{'n_neighbors': 3}
+['age', 'hypertension', 'target'];0;0.5045662100456622;0.5238095238095238;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['age', 'hypertension', 'target'];0;0.5;0.503968253968254;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.7, 'n_estimators': 10}
+['age', 'hypertension', 'target'];0;0.5045662100456622;0.5277777777777778;KNeighborsClassifier;{'n_neighbors': 3}
+['age', 'hypertension', 'target'];3;0.5045662100456622;0.5265306122448979;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['age', 'hypertension', 'target'];3;0.5045662100456622;0.5306122448979592;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 25}
+['age', 'hypertension', 'target'];3;0.5;0.49387755102040815;KNeighborsClassifier;{'n_neighbors': 3}
+['age', 'hypertension', 'target'];5;0.5045662100456622;0.5333333333333333;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['age', 'hypertension', 'target'];5;0.5;0.5041666666666667;RandomForestClassifier;{'max_depth': 25, 'max_features': 0.5, 'n_estimators': 5}
+['age', 'hypertension', 'target'];5;0.5;0.5083333333333333;KNeighborsClassifier;{'n_neighbors': 3}
+['age', 'hypertension', 'target'];15;0.5045662100456622;0.5302325581395348;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['age', 'hypertension', 'target'];15;0.5045662100456622;0.5255813953488372;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.5, 'n_estimators': 10}
+['age', 'hypertension', 'target'];15;0.5045662100456622;0.5348837209302325;KNeighborsClassifier;{'n_neighbors': 3}
+['age', 'hypertension', 'target'];25;0.5045662100456622;0.5291005291005291;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['age', 'hypertension', 'target'];25;0.5045662100456622;0.5291005291005291;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 75}
+['age', 'hypertension', 'target'];25;0.5045662100456622;0.5291005291005291;KNeighborsClassifier;{'n_neighbors': 3}
+['age', 'diabetes', 'target'];0;0.5199771689497716;0.40476190476190477;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['age', 'diabetes', 'target'];0;0.5199771689497716;0.3968253968253968;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['age', 'diabetes', 'target'];0;0.5;0.5079365079365079;KNeighborsClassifier;{'n_neighbors': 3}
+['age', 'diabetes', 'target'];3;0.5199771689497716;0.4;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['age', 'diabetes', 'target'];3;0.5199771689497716;0.39183673469387753;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['age', 'diabetes', 'target'];3;0.5;0.49387755102040815;KNeighborsClassifier;{'n_neighbors': 5}
+['age', 'diabetes', 'target'];5;0.5199771689497716;0.4041666666666667;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['age', 'diabetes', 'target'];5;0.5199771689497716;0.4041666666666667;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['age', 'diabetes', 'target'];5;0.4800228310502283;0.6041666666666666;KNeighborsClassifier;{'n_neighbors': 5}
+['age', 'diabetes', 'target'];15;0.5199771689497716;0.40930232558139534;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['age', 'diabetes', 'target'];15;0.5199771689497716;0.4;RandomForestClassifier;{'max_depth': 25, 'max_features': 0.7, 'n_estimators': 5}
+['age', 'diabetes', 'target'];15;0.5199771689497716;0.40930232558139534;KNeighborsClassifier;{'n_neighbors': 3}
+['age', 'diabetes', 'target'];25;0.5199771689497716;0.4074074074074074;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['age', 'diabetes', 'target'];25;0.5199771689497716;0.4021164021164021;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['age', 'diabetes', 'target'];25;0.4800228310502283;0.5978835978835979;KNeighborsClassifier;{'n_neighbors': 5}
+['age', 'heart_failure', 'target'];0;0.5171232876712328;0.47619047619047616;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['age', 'heart_failure', 'target'];0;0.5171232876712328;0.47619047619047616;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['age', 'heart_failure', 'target'];0;0.5;0.5079365079365079;KNeighborsClassifier;{'n_neighbors': 5}
+['age', 'heart_failure', 'target'];3;0.5171232876712328;0.4857142857142857;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['age', 'heart_failure', 'target'];3;0.5171232876712328;0.4857142857142857;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['age', 'heart_failure', 'target'];3;0.4828767123287671;0.5142857142857142;KNeighborsClassifier;{'n_neighbors': 7}
+['age', 'heart_failure', 'target'];5;0.5171232876712328;0.4791666666666667;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['age', 'heart_failure', 'target'];5;0.5;0.5;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['age', 'heart_failure', 'target'];5;0.5;0.5083333333333333;KNeighborsClassifier;{'n_neighbors': 3}
+['age', 'heart_failure', 'target'];15;0.5171232876712328;0.48372093023255813;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['age', 'heart_failure', 'target'];15;0.5171232876712328;0.48372093023255813;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.5, 'n_estimators': 10}
+['age', 'heart_failure', 'target'];15;0.5;0.5069767441860465;KNeighborsClassifier;{'n_neighbors': 7}
+['age', 'heart_failure', 'target'];25;0.5171232876712328;0.48677248677248675;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['age', 'heart_failure', 'target'];25;0.5171232876712328;0.48677248677248675;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 10}
+['age', 'heart_failure', 'target'];25;0.5171232876712328;0.48677248677248675;KNeighborsClassifier;{'n_neighbors': 5}
+['age', 'mmrc', 'target'];0;0.5165525114155252;0.5;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['age', 'mmrc', 'target'];0;0.5165525114155252;0.5119047619047619;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['age', 'mmrc', 'target'];0;0.5;0.5;KNeighborsClassifier;{'n_neighbors': 3}
+['age', 'mmrc', 'target'];3;0.5165525114155252;0.5061224489795918;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['age', 'mmrc', 'target'];3;0.5165525114155252;0.5102040816326531;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['age', 'mmrc', 'target'];3;0.5;0.49387755102040815;KNeighborsClassifier;{'n_neighbors': 3}
+['age', 'mmrc', 'target'];5;0.5165525114155252;0.5;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['age', 'mmrc', 'target'];5;0.5165525114155252;0.5041666666666667;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 10}
+['age', 'mmrc', 'target'];5;0.5165525114155252;0.5125;KNeighborsClassifier;{'n_neighbors': 3}
+['age', 'mmrc', 'target'];15;0.5165525114155252;0.4930232558139535;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['age', 'mmrc', 'target'];15;0.5165525114155252;0.5023255813953489;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 25}
+['age', 'mmrc', 'target'];15;0.5;0.5069767441860465;KNeighborsClassifier;{'n_neighbors': 3}
+['age', 'mmrc', 'target'];25;0.5165525114155252;0.49206349206349204;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['age', 'mmrc', 'target'];25;0.5165525114155252;0.4973544973544973;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 10}
+['age', 'mmrc', 'target'];25;0.4834474885844749;0.5079365079365079;KNeighborsClassifier;{'n_neighbors': 5}
+['age', 'fever', 'target'];0;0.5034246575342466;0.44047619047619047;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['age', 'fever', 'target'];0;0.5;0.5;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 25}
+['age', 'fever', 'target'];0;0.5034246575342466;0.44047619047619047;KNeighborsClassifier;{'n_neighbors': 3}
+['age', 'fever', 'target'];3;0.5034246575342466;0.4326530612244898;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['age', 'fever', 'target'];3;0.5034246575342466;0.42448979591836733;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 25}
+['age', 'fever', 'target'];3;0.5034246575342466;0.4326530612244898;KNeighborsClassifier;{'n_neighbors': 3}
+['age', 'fever', 'target'];5;0.5034246575342466;0.44166666666666665;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['age', 'fever', 'target'];5;0.5034246575342466;0.44166666666666665;RandomForestClassifier;{'max_depth': 10, 'max_features': 0.7, 'n_estimators': 10}
+['age', 'fever', 'target'];5;0.5;0.5083333333333333;KNeighborsClassifier;{'n_neighbors': 3}
+['age', 'fever', 'target'];15;0.5034246575342466;0.4418604651162791;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 300}
+['age', 'fever', 'target'];15;0.5034246575342466;0.4418604651162791;RandomForestClassifier;{'max_depth': 10, 'max_features': 0.3, 'n_estimators': 5}
+['age', 'fever', 'target'];15;0.4965753424657534;0.5674418604651162;KNeighborsClassifier;{'n_neighbors': 3}
+['age', 'fever', 'target'];25;0.5;0.49206349206349204;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 300}
+['age', 'fever', 'target'];25;0.5;0.5132275132275133;RandomForestClassifier;{'max_depth': 25, 'max_features': 0.7, 'n_estimators': 5}
+['age', 'fever', 'target'];25;0.5034246575342466;0.4603174603174603;KNeighborsClassifier;{'n_neighbors': 3}
+['age', 'dyspnoea', 'target'];0;0.5051369863013698;0.5357142857142857;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['age', 'dyspnoea', 'target'];0;0.5051369863013698;0.5277777777777778;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 300}
+['age', 'dyspnoea', 'target'];0;0.5;0.5079365079365079;KNeighborsClassifier;{'n_neighbors': 7}
+['age', 'dyspnoea', 'target'];3;0.5051369863013698;0.5224489795918368;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['age', 'dyspnoea', 'target'];3;0.5051369863013698;0.5224489795918368;RandomForestClassifier;{'max_depth': 10, 'max_features': 0.5, 'n_estimators': 5}
+['age', 'dyspnoea', 'target'];3;0.5051369863013698;0.5224489795918368;KNeighborsClassifier;{'n_neighbors': 3}
+['age', 'dyspnoea', 'target'];5;0.5051369863013698;0.5208333333333334;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['age', 'dyspnoea', 'target'];5;0.5051369863013698;0.5208333333333334;RandomForestClassifier;{'max_depth': 10, 'max_features': 0.7, 'n_estimators': 5}
+['age', 'dyspnoea', 'target'];5;0.5051369863013698;0.5208333333333334;KNeighborsClassifier;{'n_neighbors': 3}
+['age', 'dyspnoea', 'target'];15;0.5051369863013698;0.5209302325581395;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['age', 'dyspnoea', 'target'];15;0.5051369863013698;0.5209302325581395;RandomForestClassifier;{'max_depth': 10, 'max_features': 0.7, 'n_estimators': 5}
+['age', 'dyspnoea', 'target'];15;0.5051369863013698;0.5209302325581395;KNeighborsClassifier;{'n_neighbors': 5}
+['age', 'dyspnoea', 'target'];25;0.5051369863013698;0.5185185185185185;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['age', 'dyspnoea', 'target'];25;0.5;0.49206349206349204;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.5, 'n_estimators': 5}
+['age', 'dyspnoea', 'target'];25;0.5;0.5132275132275133;KNeighborsClassifier;{'n_neighbors': 5}
+['age', 'cancer', 'target'];0;0.5148401826484018;0.4523809523809524;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['age', 'cancer', 'target'];0;0.5;0.5079365079365079;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['age', 'cancer', 'target'];0;0.5;0.5;KNeighborsClassifier;{'n_neighbors': 3}
+['age', 'cancer', 'target'];3;0.5148401826484018;0.4448979591836735;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['age', 'cancer', 'target'];3;0.5148401826484018;0.4448979591836735;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 10}
+['age', 'cancer', 'target'];3;0.5148401826484018;0.4530612244897959;KNeighborsClassifier;{'n_neighbors': 3}
+['age', 'cancer', 'target'];5;0.5148401826484018;0.45;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['age', 'cancer', 'target'];5;0.5148401826484018;0.4583333333333333;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['age', 'cancer', 'target'];5;0.5;0.5083333333333333;KNeighborsClassifier;{'n_neighbors': 5}
+['age', 'cancer', 'target'];15;0.5148401826484018;0.46511627906976744;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['age', 'cancer', 'target'];15;0.5148401826484018;0.46511627906976744;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 75}
+['age', 'cancer', 'target'];15;0.5;0.5023255813953489;KNeighborsClassifier;{'n_neighbors': 5}
+['age', 'cancer', 'target'];25;0.5148401826484018;0.4708994708994709;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['age', 'cancer', 'target'];25;0.5148401826484018;0.4656084656084656;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 75}
+['age', 'cancer', 'target'];25;0.5148401826484018;0.4656084656084656;KNeighborsClassifier;{'n_neighbors': 3}
+['age', 'myocardial_infarct', 'target'];0;0.5102739726027398;0.5119047619047619;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['age', 'myocardial_infarct', 'target'];0;0.5102739726027398;0.503968253968254;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 10}
+['age', 'myocardial_infarct', 'target'];0;0.5102739726027398;0.5119047619047619;KNeighborsClassifier;{'n_neighbors': 5}
+['age', 'myocardial_infarct', 'target'];3;0.5102739726027398;0.5020408163265306;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['age', 'myocardial_infarct', 'target'];3;0.5102739726027398;0.5020408163265306;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 10}
+['age', 'myocardial_infarct', 'target'];3;0.5102739726027398;0.5020408163265306;KNeighborsClassifier;{'n_neighbors': 3}
+['age', 'myocardial_infarct', 'target'];5;0.5102739726027398;0.5041666666666667;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['age', 'myocardial_infarct', 'target'];5;0.5102739726027398;0.49583333333333335;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['age', 'myocardial_infarct', 'target'];5;0.5;0.5083333333333333;KNeighborsClassifier;{'n_neighbors': 9}
+['age', 'myocardial_infarct', 'target'];15;0.5102739726027398;0.5116279069767442;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['age', 'myocardial_infarct', 'target'];15;0.5102739726027398;0.5116279069767442;RandomForestClassifier;{'max_depth': 25, 'max_features': 0.5, 'n_estimators': 5}
+['age', 'myocardial_infarct', 'target'];15;0.5;0.5069767441860465;KNeighborsClassifier;{'n_neighbors': 7}
+['age', 'myocardial_infarct', 'target'];25;0.5102739726027398;0.5079365079365079;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['age', 'myocardial_infarct', 'target'];25;0.5102739726027398;0.5079365079365079;RandomForestClassifier;{'max_depth': 25, 'max_features': 0.3, 'n_estimators': 5}
+['age', 'myocardial_infarct', 'target'];25;0.5102739726027398;0.5079365079365079;KNeighborsClassifier;{'n_neighbors': 3}
+['age', 'stroke', 'target'];0;0.5011415525114156;0.5436507936507936;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['age', 'stroke', 'target'];0;0.5011415525114156;0.5515873015873016;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.7, 'n_estimators': 5}
+['age', 'stroke', 'target'];0;0.4988584474885845;0.45634920634920634;KNeighborsClassifier;{'n_neighbors': 3}
+['age', 'stroke', 'target'];3;0.5;0.49387755102040815;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['age', 'stroke', 'target'];3;0.5;0.49387755102040815;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.5, 'n_estimators': 5}
+['age', 'stroke', 'target'];3;0.4988584474885845;0.4489795918367347;KNeighborsClassifier;{'n_neighbors': 3}
+['age', 'stroke', 'target'];5;0.5011415525114156;0.5458333333333333;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['age', 'stroke', 'target'];5;0.5;0.5083333333333333;RandomForestClassifier;{'max_depth': 25, 'max_features': 0.5, 'n_estimators': 5}
+['age', 'stroke', 'target'];5;0.5;0.5083333333333333;KNeighborsClassifier;{'n_neighbors': 3}
+['age', 'stroke', 'target'];15;0.5011415525114156;0.5441860465116279;XGBClassifier;{'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 100}
+['age', 'stroke', 'target'];15;0.5011415525114156;0.5534883720930233;RandomForestClassifier;{'max_depth': 25, 'max_features': 0.7, 'n_estimators': 5}
+['age', 'stroke', 'target'];15;0.4988584474885845;0.4558139534883721;KNeighborsClassifier;{'n_neighbors': 5}
+['age', 'stroke', 'target'];25;0.5011415525114156;0.544973544973545;XGBClassifier;{'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 300}
+['age', 'stroke', 'target'];25;0.5011415525114156;0.544973544973545;RandomForestClassifier;{'max_depth': 25, 'max_features': 0.5, 'n_estimators': 5}
+['age', 'stroke', 'target'];25;0.4988584474885845;0.4603174603174603;KNeighborsClassifier;{'n_neighbors': 5}
+['bmi', 'hypertension', 'target'];0;0.5045662100456622;0.5238095238095238;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['bmi', 'hypertension', 'target'];0;0.5057077625570776;0.5198412698412699;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 75}
+['bmi', 'hypertension', 'target'];0;0.5057077625570776;0.5198412698412699;KNeighborsClassifier;{'n_neighbors': 3}
+['bmi', 'hypertension', 'target'];3;0.5045662100456622;0.5265306122448979;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['bmi', 'hypertension', 'target'];3;0.5057077625570776;0.5224489795918368;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.5, 'n_estimators': 10}
+['bmi', 'hypertension', 'target'];3;0.5011415525114156;0.4897959183673469;KNeighborsClassifier;{'n_neighbors': 3}
+['bmi', 'hypertension', 'target'];5;0.5045662100456622;0.5333333333333333;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['bmi', 'hypertension', 'target'];5;0.5057077625570776;0.5291666666666667;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.5, 'n_estimators': 10}
+['bmi', 'hypertension', 'target'];5;0.4942922374429224;0.4708333333333333;KNeighborsClassifier;{'n_neighbors': 7}
+['bmi', 'hypertension', 'target'];15;0.5045662100456622;0.5302325581395348;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['bmi', 'hypertension', 'target'];15;0.5057077625570776;0.5255813953488372;RandomForestClassifier;{'max_depth': 25, 'max_features': 0.7, 'n_estimators': 5}
+['bmi', 'hypertension', 'target'];15;0.5;0.5023255813953489;KNeighborsClassifier;{'n_neighbors': 5}
+['bmi', 'hypertension', 'target'];25;0.5045662100456622;0.5291005291005291;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['bmi', 'hypertension', 'target'];25;0.5;0.48677248677248675;RandomForestClassifier;{'max_depth': 10, 'max_features': 0.7, 'n_estimators': 10}
+['bmi', 'hypertension', 'target'];25;0.5057077625570776;0.5238095238095238;KNeighborsClassifier;{'n_neighbors': 3}
+['bmi', 'diabetes', 'target'];0;0.5199771689497716;0.40476190476190477;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['bmi', 'diabetes', 'target'];0;0.5205479452054794;0.40476190476190477;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['bmi', 'diabetes', 'target'];0;0.4988584474885845;0.503968253968254;KNeighborsClassifier;{'n_neighbors': 3}
+['bmi', 'diabetes', 'target'];3;0.5199771689497716;0.4;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['bmi', 'diabetes', 'target'];3;0.5205479452054794;0.4;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['bmi', 'diabetes', 'target'];3;0.519406392694064;0.40408163265306124;KNeighborsClassifier;{'n_neighbors': 5}
+['bmi', 'diabetes', 'target'];5;0.5199771689497716;0.4041666666666667;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['bmi', 'diabetes', 'target'];5;0.5205479452054794;0.4041666666666667;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['bmi', 'diabetes', 'target'];5;0.4988584474885845;0.5041666666666667;KNeighborsClassifier;{'n_neighbors': 5}
+['bmi', 'diabetes', 'target'];15;0.5199771689497716;0.40930232558139534;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['bmi', 'diabetes', 'target'];15;0.5205479452054794;0.40930232558139534;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['bmi', 'diabetes', 'target'];15;0.4988584474885845;0.5023255813953489;KNeighborsClassifier;{'n_neighbors': 3}
+['bmi', 'diabetes', 'target'];25;0.5199771689497716;0.4074074074074074;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['bmi', 'diabetes', 'target'];25;0.5205479452054794;0.4074074074074074;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['bmi', 'diabetes', 'target'];25;0.4794520547945205;0.5925925925925926;KNeighborsClassifier;{'n_neighbors': 5}
+['bmi', 'heart_failure', 'target'];0;0.5171232876712328;0.47619047619047616;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['bmi', 'heart_failure', 'target'];0;0.5182648401826484;0.47619047619047616;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['bmi', 'heart_failure', 'target'];0;0.4988584474885845;0.503968253968254;KNeighborsClassifier;{'n_neighbors': 5}
+['bmi', 'heart_failure', 'target'];3;0.5171232876712328;0.4857142857142857;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['bmi', 'heart_failure', 'target'];3;0.5182648401826484;0.4857142857142857;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 10}
+['bmi', 'heart_failure', 'target'];3;0.4817351598173516;0.5142857142857142;KNeighborsClassifier;{'n_neighbors': 5}
+['bmi', 'heart_failure', 'target'];5;0.5171232876712328;0.4791666666666667;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['bmi', 'heart_failure', 'target'];5;0.5182648401826484;0.4791666666666667;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 10}
+['bmi', 'heart_failure', 'target'];5;0.4828767123287671;0.5166666666666667;KNeighborsClassifier;{'n_neighbors': 3}
+['bmi', 'heart_failure', 'target'];15;0.5171232876712328;0.4744186046511628;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['bmi', 'heart_failure', 'target'];15;0.5182648401826484;0.4744186046511628;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 10}
+['bmi', 'heart_failure', 'target'];15;0.4817351598173516;0.5255813953488372;KNeighborsClassifier;{'n_neighbors': 7}
+['bmi', 'heart_failure', 'target'];25;0.5171232876712328;0.48148148148148145;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['bmi', 'heart_failure', 'target'];25;0.5182648401826484;0.48148148148148145;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 10}
+['bmi', 'heart_failure', 'target'];25;0.5171232876712328;0.48677248677248675;KNeighborsClassifier;{'n_neighbors': 5}
+['bmi', 'mmrc', 'target'];0;0.5165525114155252;0.5;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['bmi', 'mmrc', 'target'];0;0.5176940639269406;0.5;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['bmi', 'mmrc', 'target'];0;0.5011415525114156;0.5;KNeighborsClassifier;{'n_neighbors': 3}
+['bmi', 'mmrc', 'target'];3;0.5165525114155252;0.5061224489795918;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['bmi', 'mmrc', 'target'];3;0.5176940639269406;0.5061224489795918;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 75}
+['bmi', 'mmrc', 'target'];3;0.5011415525114156;0.49387755102040815;KNeighborsClassifier;{'n_neighbors': 3}
+['bmi', 'mmrc', 'target'];5;0.5165525114155252;0.5;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['bmi', 'mmrc', 'target'];5;0.5176940639269406;0.5;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['bmi', 'mmrc', 'target'];5;0.5176940639269406;0.5041666666666667;KNeighborsClassifier;{'n_neighbors': 3}
+['bmi', 'mmrc', 'target'];15;0.5165525114155252;0.4930232558139535;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['bmi', 'mmrc', 'target'];15;0.5176940639269406;0.4930232558139535;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['bmi', 'mmrc', 'target'];15;0.5165525114155252;0.49767441860465117;KNeighborsClassifier;{'n_neighbors': 9}
+['bmi', 'mmrc', 'target'];25;0.5165525114155252;0.49206349206349204;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['bmi', 'mmrc', 'target'];25;0.5176940639269406;0.49206349206349204;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['bmi', 'mmrc', 'target'];25;0.5;0.5132275132275133;KNeighborsClassifier;{'n_neighbors': 7}
+['bmi', 'fever', 'target'];0;0.5034246575342466;0.44047619047619047;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['bmi', 'fever', 'target'];0;0.5045662100456622;0.44047619047619047;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 10}
+['bmi', 'fever', 'target'];0;0.5045662100456622;0.44047619047619047;KNeighborsClassifier;{'n_neighbors': 3}
+['bmi', 'fever', 'target'];3;0.5034246575342466;0.4326530612244898;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['bmi', 'fever', 'target'];3;0.5045662100456622;0.4326530612244898;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 75}
+['bmi', 'fever', 'target'];3;0.5045662100456622;0.4326530612244898;KNeighborsClassifier;{'n_neighbors': 3}
+['bmi', 'fever', 'target'];5;0.5034246575342466;0.44166666666666665;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['bmi', 'fever', 'target'];5;0.5045662100456622;0.44166666666666665;RandomForestClassifier;{'max_depth': 25, 'max_features': 0.5, 'n_estimators': 10}
+['bmi', 'fever', 'target'];5;0.5;0.5;KNeighborsClassifier;{'n_neighbors': 3}
+['bmi', 'fever', 'target'];15;0.5034246575342466;0.4418604651162791;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 300}
+['bmi', 'fever', 'target'];15;0.5045662100456622;0.4418604651162791;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.5, 'n_estimators': 25}
+['bmi', 'fever', 'target'];15;0.5;0.49767441860465117;KNeighborsClassifier;{'n_neighbors': 3}
+['bmi', 'fever', 'target'];25;0.5;0.48677248677248675;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 300}
+['bmi', 'fever', 'target'];25;0.5045662100456622;0.4603174603174603;RandomForestClassifier;{'max_depth': 25, 'max_features': 0.5, 'n_estimators': 10}
+['bmi', 'fever', 'target'];25;0.5045662100456622;0.4603174603174603;KNeighborsClassifier;{'n_neighbors': 3}
+['bmi', 'dyspnoea', 'target'];0;0.5051369863013698;0.5357142857142857;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['bmi', 'dyspnoea', 'target'];0;0.5062785388127854;0.5357142857142857;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 100}
+['bmi', 'dyspnoea', 'target'];0;0.4988584474885845;0.503968253968254;KNeighborsClassifier;{'n_neighbors': 7}
+['bmi', 'dyspnoea', 'target'];3;0.5051369863013698;0.5224489795918368;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['bmi', 'dyspnoea', 'target'];3;0.5062785388127854;0.5224489795918368;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 25}
+['bmi', 'dyspnoea', 'target'];3;0.5062785388127854;0.5224489795918368;KNeighborsClassifier;{'n_neighbors': 3}
+['bmi', 'dyspnoea', 'target'];5;0.5051369863013698;0.5208333333333334;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['bmi', 'dyspnoea', 'target'];5;0.5062785388127854;0.5208333333333334;RandomForestClassifier;{'max_depth': 10, 'max_features': 0.5, 'n_estimators': 10}
+['bmi', 'dyspnoea', 'target'];5;0.5062785388127854;0.5208333333333334;KNeighborsClassifier;{'n_neighbors': 3}
+['bmi', 'dyspnoea', 'target'];15;0.5051369863013698;0.5209302325581395;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['bmi', 'dyspnoea', 'target'];15;0.5062785388127854;0.5209302325581395;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 25}
+['bmi', 'dyspnoea', 'target'];15;0.5051369863013698;0.5255813953488372;KNeighborsClassifier;{'n_neighbors': 9}
+['bmi', 'dyspnoea', 'target'];25;0.5051369863013698;0.5185185185185185;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['bmi', 'dyspnoea', 'target'];25;0.5062785388127854;0.5185185185185185;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['bmi', 'dyspnoea', 'target'];25;0.5062785388127854;0.5185185185185185;KNeighborsClassifier;{'n_neighbors': 3}
+['bmi', 'cancer', 'target'];0;0.5148401826484018;0.4523809523809524;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['bmi', 'cancer', 'target'];0;0.5159817351598174;0.44841269841269843;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['bmi', 'cancer', 'target'];0;0.5159817351598174;0.44841269841269843;KNeighborsClassifier;{'n_neighbors': 3}
+['bmi', 'cancer', 'target'];3;0.5148401826484018;0.4448979591836735;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['bmi', 'cancer', 'target'];3;0.5159817351598174;0.44081632653061226;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['bmi', 'cancer', 'target'];3;0.5148401826484018;0.4448979591836735;KNeighborsClassifier;{'n_neighbors': 9}
+['bmi', 'cancer', 'target'];5;0.5148401826484018;0.45;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['bmi', 'cancer', 'target'];5;0.5159817351598174;0.44583333333333336;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['bmi', 'cancer', 'target'];5;0.4988584474885845;0.5041666666666667;KNeighborsClassifier;{'n_neighbors': 5}
+['bmi', 'cancer', 'target'];15;0.5148401826484018;0.46511627906976744;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['bmi', 'cancer', 'target'];15;0.5159817351598174;0.4604651162790698;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['bmi', 'cancer', 'target'];15;0.5148401826484018;0.46511627906976744;KNeighborsClassifier;{'n_neighbors': 5}
+['bmi', 'cancer', 'target'];25;0.5148401826484018;0.4708994708994709;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['bmi', 'cancer', 'target'];25;0.5159817351598174;0.4656084656084656;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.7, 'n_estimators': 5}
+['bmi', 'cancer', 'target'];25;0.5159817351598174;0.4656084656084656;KNeighborsClassifier;{'n_neighbors': 3}
+['bmi', 'myocardial_infarct', 'target'];0;0.5102739726027398;0.5119047619047619;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['bmi', 'myocardial_infarct', 'target'];0;0.5114155251141552;0.5079365079365079;RandomForestClassifier;{'max_depth': 10, 'max_features': 0.3, 'n_estimators': 5}
+['bmi', 'myocardial_infarct', 'target'];0;0.5114155251141552;0.5079365079365079;KNeighborsClassifier;{'n_neighbors': 3}
+['bmi', 'myocardial_infarct', 'target'];3;0.5102739726027398;0.5020408163265306;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['bmi', 'myocardial_infarct', 'target'];3;0.5114155251141552;0.49795918367346936;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 10}
+['bmi', 'myocardial_infarct', 'target'];3;0.5102739726027398;0.5020408163265306;KNeighborsClassifier;{'n_neighbors': 9}
+['bmi', 'myocardial_infarct', 'target'];5;0.5102739726027398;0.5041666666666667;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['bmi', 'myocardial_infarct', 'target'];5;0.5114155251141552;0.5;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 5}
+['bmi', 'myocardial_infarct', 'target'];5;0.4988584474885845;0.5041666666666667;KNeighborsClassifier;{'n_neighbors': 9}
+['bmi', 'myocardial_infarct', 'target'];15;0.5102739726027398;0.5116279069767442;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['bmi', 'myocardial_infarct', 'target'];15;0.5114155251141552;0.5069767441860465;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 10}
+['bmi', 'myocardial_infarct', 'target'];15;0.4988584474885845;0.5023255813953489;KNeighborsClassifier;{'n_neighbors': 7}
+['bmi', 'myocardial_infarct', 'target'];25;0.5102739726027398;0.5079365079365079;XGBClassifier;{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 5}
+['bmi', 'myocardial_infarct', 'target'];25;0.5114155251141552;0.5026455026455027;RandomForestClassifier;{'max_depth': 5, 'max_features': 0.3, 'n_estimators': 25}
+['bmi', 'myocardial_infarct', 'target'];25;0.5114155251141552;0.5026455026455027;KNeighborsClassifier;{'n_neighbors': 3}
