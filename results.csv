@@ -1,8 +1,0 @@
-('gender',);0.5272108843537415;GaussianNB()
-('age',);0.5408163265306123;KNeighborsClassifier()
-('fever',);0.6258503401360545;GaussianNB()
-('fast_breathing',);0.7074829931972789;GaussianNB()
-('dyspnoea',);0.7482993197278912;GaussianNB()
-('dyspnoea',);0.7517006802721088;LogisticRegression()
-('fever', 'dyspnoea');0.7551020408163265;GaussianNB()
-('stroke', 'dyspnoea');0.7585034013605442;KNeighborsClassifier()
