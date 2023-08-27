@@ -1,87 +1,101 @@
-Predictors;MI;Vote;RF;Vote;;Sum votes;Predictors Sorted
-% FEV1;% FEV1 b;0,017857143;FEV1 b;0,333333333;;0,351190476;FEV1 b
-% FEV1 b;FEV1;0,5;% FEV1;0,05;;0,55;% FEV1 b
-% FVC a;% FVC b;0,142857143;Age;0,083333333;;0,226190476;FEV1
-% FVC b;Pred. FEV1/FVC x 100 a;0,25;Pred. FVC a;0,043478261;;0,293478261;% FEV1
-2+ Exa. last year;Pred. FEV1/FVC x 100 b;0,016949153;Weight;0,021276596;;0,038225748;% FVC b
-6MWT;% FVC a;0,090909091;Pred. FEV1 a;0,066666667;;0,157575758;Age
-Advair;FEV1 b;0,016666667;BMI;0,016129032;;0,032795699;Pred. FEV1/FVC x 100 a
-Age;Pred. FEV1 b;0,03030303;Pred. PEF a;0,25;;0,28030303;% FVC a
-Albuterol;MMRC;0,016393443;Pack years;0,02;;0,036393443;Pred. FVC a
-Anxiety;6MWT;0,016129032;FVC b;0,014705882;;0,030834915;Pred. FEV1/FVC x 100 b
-Arthritis / rheumatism;Increase in sputum;0,015873016;% FVC a;0,016666667;;0,032539683;Weight
-Asthma;ER visits last 12 months;0,015625;MMRC;0,025;;0,040625;MMRC
-Beclomethasone;Height;0,037037037;Pred. FEV1/FVC x 100 a;0,011494253;;0,04853129;Pred. FEV1 a
-BMI;Night Symptoms;0,015384615;6MWT;0,125;;0,140384615;6MWT
-Breathing faster;FVC b;0,015151515;Height;0,018518519;;0,033670034;FVC b
-Budesonide;Pred. FVC b;0,014925373;FVC;0,029411765;;0,044337138;Pred. FEV1 b
-Cancer;Oxygen Therapy;0,014705882;FEV1;0,015384615;;0,030090498;Pred. PEF a
-Chest pain;GOLD;0,035714286;Rescue Inhaler;0,026315789;;0,062030075;BMI
-Combivent;COPD state;0,034482759;% FEV1 b;0,014285714;;0,048768473;Height
-Congestive Heart Failure;ICU last year;0,014492754;Exa. last 12 months;0,01369863;;0,028191384;Pack years
-COPD state;Stroke / TIA;0,05;Race;0,022727273;;0,072727273;ER visits last 12 months
-COPD type;Rescue Inhaler;0,033333333;% FVC b;0,023809524;;0,057142857;Increase in sputum
-Coronary Artery Disease;Hypertension;0,014285714;ER visits last 12 months;0,018181818;;0,032467532;Rescue Inhaler
-Daily Inhaler;No treatment last 3 days;0,014084507;Education level;0,013333333;;0,02741784;Pred. FVC b
-Depression;Myocardial infarction;0,017241379;Occup. status;0,017857143;;0,035098522;Night Symptoms
-Diabetes;Beclomethasone;0,013888889;Pred. FVC b;0,015151515;;0,029040404;GOLD
-Education level;Chest pain;0,028571429;Pred. FEV1 b;0,04;;0,068571429;Exa. last 12 months
-Enrolled as Exacerbator;Combivent;0,027027027;Relationship status;0,014084507;;0,041111534;ICU last year
-ER visits last 12 months;COPD type;0,076923077;Pred. PEF b;0,041666667;;0,118589744;COPD state
-Exa. last 12 months;Exa. last 12 months;0,032258065;Length COPD;0,047619048;;0,079877112;FVC
-Exa. last 2 months;Pred. PEF b;0,013513514;Exa. last 2 months;0,03125;;0,044763514;Education level
-FEV1;Age;0,333333333;Increase in sputum;0,055555556;;0,388888889;Oxygen Therapy
-FEV1 b;Pred. PEF a;0,125;Budesonide;0,5;;0,625;Race
-Fever;Education level;0,013157895;GOLD;0,012658228;;0,025816123;Pred. PEF b
-Flucticasone;Sleep disorder;0,012987013;Night Symptoms;0,0125;;0,025487013;Hypertension
-Formoterol;Enrolled as Exacerbator;0,012820513;Pred. FEV1/FVC x 100 b;0,012987013;;0,025807526;Chest pain
-FVC;Relationship status;0,013333333;Chest pain;0,058823529;;0,072156863;Occup. status
-FVC b;Wheezing;0,0625;ICU last year;0,090909091;;0,153409091;No treatment last 3 days
-Gender, Male;Worse dyspnea;0,012658228;Asthma;0,015873016;;0,028531244;Relationship status
-GOLD;Worse cough;0,052631579;Singulair;0,028571429;;0,081203008;Myocardial infarction
-Height;Mometasone;0,071428571;COPD type;0,0625;;0,133928571;Stroke / TIA
-Hosp. last 12 months;Non COPD conditions;0,0125;Migraines;0,020408163;;0,032908163;COPD type
-Hospitalized last year;Occup. status;0,012345679;COPD state;0,014492754;;0,026838433;Combivent
-Hypertension;Osteoarthritis;0,041666667;Myocardial infarction;0,02173913;;0,063405797;Beclomethasone
-ICU last year;Other symptoms;0,047619048;Hypertension;0,025641026;;0,073260073;Exa. last 2 months
-Increase in sputum;Weight;0,083333333;2+ Exa. last year;0,03030303;;0,113636364;Budesonide
-Ipratropium;Race;0,012195122;No treatment last 3 days;0,013888889;;0,026084011;Length COPD
-Kidney disease;Tiotropium;0,012048193;Hosp. last 12 months;0,012820513;;0,024868706;Singulair
-Length COPD;Pack years;0,011904762;Albuterol;0,032258065;;0,044162826;Sleep disorder
-Levaquin;Pred. FVC a;0,011764706;Lives Alone;0,012048193;;0,023812899;Worse cough
-Liver disease;Singulair;0,011627907;Pill to control Exa.;0,012345679;;0,023973586;Wheezing
-Lives Alone;Pred. FEV1 a;0,01369863;Worse cough;0,019607843;;0,033306473;Worse dyspnea
-Migraines;Serevent;0,01754386;Breathing faster;0,023255814;;0,040799674;Enrolled as Exacerbator
-MMRC;Pill to control Exa.;0,1;Coronary Artery Disease;0,076923077;;0,176923077;Migraines
-Mometasone;% FEV1;0,023809524;Depression;0,012195122;;0,036004646;Asthma
-Myocardial infarction;Migraines;0,038461538;Other symptoms;0,022222222;;0,060683761;Other symptoms
-Night Symptoms;Depression;0,066666667;Xopenex;0,027777778;;0,094444444;2+ Exa. last year
-No treatment last 3 days;2+ Exa. last year;0,04;Wheezing;0,020833333;;0,060833333;Pill to control Exa.
-Non COPD conditions;Advair;0,023255814;Arthritis / rheumatism;0,013157895;;0,036413709;Non COPD conditions
-Occup. status;Albuterol;0,022727273;Worse dyspnea;0,038461538;;0,061188811;Albuterol
-Osteoarthritis;Anxiety;0,022222222;Advair;0,013513514;;0,035735736;Mometasone
-Other symptoms;Arthritis / rheumatism;0,02173913;Gender, Male;0,01754386;;0,03928299;Osteoarthritis
-Oxygen Therapy;Asthma;0,055555556;Sleep disorder;0,011764706;;0,067320261;Tiotropium
-Pack years;BMI;0,02;Cancer;0,1;;0,12;Depression
-Pill to control Exa.;Breathing faster;0,018181818;Diabetes;0,019230769;;0,037412587;Breathing faster
-Pred. FEV1 a;Budesonide;0,018867925;Tiotropium;0,142857143;;0,161725067;Lives Alone
-Pred. FEV1 b;Cancer;0,111111111;Anxiety;0,035714286;;0,146825397;Hosp. last 12 months
-Pred. FEV1/FVC x 100 a;Congestive Heart Failure;0,2;Hospitalized last year;0,071428571;;0,271428571;Advair
-Pred. FEV1/FVC x 100 b;Coronary Artery Disease;0,166666667;Combivent;0,027027027;;0,193693694;Arthritis / rheumatism
-Pred. FVC a;Daily Inhaler;0,019607843;Enrolled as Exacerbator;0,2;;0,219607843;Coronary Artery Disease
-Pred. FVC b;Diabetes;0,058823529;Ipratropium;0,037037037;;0,095860566;Anxiety
-Pred. PEF a;Lives Alone;0,029411765;Congestive Heart Failure;0,111111111;;0,140522876;Serevent
-Pred. PEF b;Exa. last 2 months;0,03125;Osteoarthritis;0,033333333;;0,064583333;Cancer
-Race;FVC;0,020833333;Daily Inhaler;0,045454545;;0,066287879;Diabetes
-Relationship status;Fever;0,026315789;Non COPD conditions;0,034482759;;0,060798548;Xopenex
-Rescue Inhaler;Flucticasone;0,043478261;Formoterol;0,052631579;;0,09610984;Gender, Male
-Serevent;Formoterol;0,018518519;Kidney disease;0,011627907;;0,030146425;Congestive Heart Failure
-Singulair;Gender, Male;0,019230769;Fever;0,024390244;;0,043621013;Daily Inhaler
-Sleep disorder;Hosp. last 12 months;0,027777778;Flucticasone;0,015625;;0,043402778;Hospitalized last year
-Stroke / TIA;Hospitalized last year;0,045454545;Liver disease;0,011904762;;0,057359307;Ipratropium
-Tiotropium;Ipratropium;0,020408163;Mometasone;0,014925373;;0,035333536;Fever
-Weight;Kidney disease;0,021276596;Levaquin;0,166666667;;0,187943262;Formoterol
-Wheezing;Length COPD;0,025641026;Stroke / TIA;0,016949153;;0,042590178;Flucticasone
-Worse cough;Levaquin;0,024390244;Oxygen Therapy;0,018867925;;0,043258168;Kidney disease
-Worse dyspnea;Liver disease;0,025;Serevent;0,016393443;;0,041393443;Liver disease
-Xopenex;Xopenex;0,011494253;Beclomethasone;0,017241379;;0,028735632;Levaquin
+;Exacerbation;No Exacerbation;Effect size
+Exacerbation;55 (100.0%);0 (0.0%);558.15 (4.04-77164.33)
+Exa. last 2 months;24 (43.64%);120 (25.81%);5.11 (0.42-62.53)
+Myocardial infarction;23 (41.82%);53 (11.4%);4.8 (0.41-55.93)
+Congestive Heart Failure;15 (27.27%);43 (9.25%);3.2 (0.39-26.54)
+Full-time employed;8 (14.55%);19 (4.09%);3.14 (0.39-25.61)
+Night Symptoms;4 (7.27%);8 (1.72%);2.86 (0.38-21.27)
+Kidney disease;5 (9.09%);15 (3.23%);2.32 (0.38-14.0)
+Migraines;8 (14.55%);28 (6.02%);2.27 (0.38-13.41)
+Worse cough;16 (29.09%);67 (14.41%);2.24 (0.39-12.98)
+2+ Exa. last year;15 (27.27%);65 (13.98%);2.12 (0.39-11.63)
+ICU last year;15 (27.27%);73 (15.7%);1.88 (0.4-8.92)
+On disability;24 (43.64%);134 (28.82%);1.82 (0.4-8.27)
+Coronary Artery Disease;16 (29.09%);83 (17.85%);1.78 (0.4-7.87)
+Increase in sputum;16 (29.09%);86 (18.49%);1.71 (0.41-7.19)
+Flucticasone;1 (1.82%);2 (0.43%);1.66 (0.41-6.73)
+Arthritis / rheumatism;36 (65.45%);210 (45.16%);1.64 (0.41-6.53)
+Chest pain;8 (14.55%);44 (9.46%);1.51 (0.43-5.36)
+Breathing faster;8 (14.55%);46 (9.89%);1.45 (0.44-4.82)
+Albuterol;7 (12.73%);52 (11.18%);1.35 (0.46-3.94)
+Formoterol;3 (5.45%);18 (3.87%);1.29 (0.48-3.45)
+No treatment last 3 days;0 (0.0%);1 (0.22%);1.22 (0.51-2.93)
+Osteoarthritis;15 (27.27%);109 (23.44%);1.2 (0.52-2.78)
+Ipratropium;2 (3.64%);13 (2.8%);1.18 (0.53-2.64)
+Lives Alone;30 (54.55%);234 (50.32%);1.17 (0.54-2.54)
+Non COPD conditions;7 (12.73%);49 (10.54%);1.04 (0.7-1.55)
+Mometasone;8 (14.55%);67 (14.41%);1.01 (0.83-1.22)
+Hospitalization on enrollment;0 (0.0%);1 (0.22%);1.0 (nan-nan)
+Antibiotics on enrollment;0 (0.0%);1 (0.22%);1.0 (nan-nan)
+Cancer;11 (20.0%);97 (20.86%);0.95 (nan-nan)
+Rescue Inhaler;7 (12.73%);63 (13.55%);0.94 (nan-nan)
+Diabetes;16 (29.09%);151 (32.47%);0.87 (nan-nan)
+Sleep disorder;15 (27.27%);142 (30.54%);0.87 (nan-nan)
+COPD state;9 (16.36%);67 (14.41%);0.85 (nan-nan)
+Stroke / TIA;0 (0.0%);2 (0.43%);0.84 (nan-nan)
+Beclomethasone;0 (0.0%);2 (0.43%);0.84 (nan-nan)
+Anxiety;15 (27.27%);145 (31.18%);0.84 (nan-nan)
+Serevent;0 (0.0%);2 (0.43%);0.84 (nan-nan)
+Retired;21 (38.18%);260 (55.91%);0.83 (nan-nan)
+Gender, Male;18 (32.73%);188 (40.43%);0.74 (nan-nan)
+Hospitalized last year;5 (9.09%);60 (12.9%);0.73 (nan-nan)
+Depression;15 (27.27%);163 (35.05%);0.72 (nan-nan)
+Wheezing;8 (14.55%);97 (20.86%);0.69 (nan-nan)
+Combivent;1 (1.82%);17 (3.66%);0.69 (nan-nan)
+Tiotropium;2 (3.64%);30 (6.45%);0.67 (nan-nan)
+Fever;0 (0.0%);8 (1.72%);0.59 (nan-nan)
+On Leave of absence;0 (0.0%);8 (1.72%);0.59 (nan-nan)
+Enrolled as Exacerbator;0 (0.0%);8 (1.72%);0.59 (nan-nan)
+Hypertension;24 (43.64%);258 (55.48%);0.52 (nan-nan)
+Singulair;0 (0.0%);14 (3.01%);0.47 (nan-nan)
+Part-time employed;0 (0.0%);14 (3.01%);0.47 (nan-nan)
+Pill to control Exa.;0 (0.0%);14 (3.01%);0.47 (nan-nan)
+Oxygen Therapy;0 (0.0%);15 (3.23%);0.46 (nan-nan)
+Asthma;8 (14.55%);149 (32.04%);0.41 (nan-nan)
+Worse dyspnea;3 (5.45%);87 (18.71%);0.35 (nan-nan)
+Homemaker;0 (0.0%);27 (5.81%);0.34 (nan-nan)
+Daily Inhaler;16 (29.09%);266 (57.2%);0.34 (nan-nan)
+Other symptoms;0 (0.0%);32 (6.88%);0.31 (nan-nan)
+Liver disease;0 (0.0%);48 (10.32%);0.24 (nan-nan)
+Unemployed;0 (0.0%);66 (14.19%);0.19 (nan-nan)
+Advair;4 (7.27%);174 (37.42%);0.19 (nan-nan)
+n;55;465;
+Pred. PEF a;783.54(113.4);552.81(333.05);2.03
+Pred. FEV1/FVC x 100 b;76.61(1.55);73.76(8.21);1.84
+Pred. FVC b;409.85(62.37);324.17(140.32);1.37
+FEV1/FVC x 100;45.0(12.05);57.07(17.64);-1.0
+FEV1/FVC x 100 a;43.29(12.79);53.54(16.81);-0.8
+% FEV1 b;40.87(12.82);50.3(19.06);-0.74
+% FEV1 a;41.6(14.51);50.97(16.62);-0.65
+Age;62.18(3.66);64.51(9.98);-0.64
+Pred. PEF b;795.52(120.88);721.7(154.07);0.61
+% PEF a;50.74(19.58);62.47(21.69);-0.6
+Pred. FEV1/FVC x 100 a;73.71(3.68);75.88(7.4);-0.59
+PSQI Disturbance;2.25(0.89);1.75(0.69);0.56
+FVC b;295.7(54.69);265.17(81.65);0.56
+FVC;261.65(109.56);205.7(119.59);0.51
+% PEF b;48.15(22.87);59.61(23.31);-0.5
+Exa. last 12 months;1.84(0.83);1.44(0.79);0.48
+Length COPD;3.62(0.76);3.28(0.89);0.45
+Pred. FEV1 a;302.69(42.51);283.79(63.62);0.44
+GOLD;2.65(0.91);2.3(0.98);0.39
+FEV1 b;104.55(69.57);129.46(72.0);-0.36
+FEV1;108.46(56.95);129.06(72.9);-0.36
+Hosp. last 12 months;1.09(0.29);1.19(0.52);-0.34
+MMRC;2.67(0.71);2.44(1.04);0.33
+Height;171.91(6.79);169.73(9.87);0.32
+Relationship status;3.07(1.64);3.45(1.76);-0.23
+6MWT;302.87(106.13);325.11(100.71);-0.21
+ER visits last 12 months;1.4(0.71);1.25(0.61);0.21
+Pack years;50.62(14.89);48.13(30.01);0.17
+% FVC b;69.2(8.97);67.79(18.34);0.16
+Pred. FEV1 b;226.76(125.71);242.87(99.92);-0.13
+Education level;6.67(0.77);6.77(0.88);-0.13
+BMI;30.22(5.13);30.79(7.65);-0.11
+Pred. FVC a;355.89(143.34);342.52(142.86);0.09
+% FVC a;70.56(8.66);71.26(15.95);-0.08
+Weight;89.25(15.02);88.27(20.88);0.07
+PEF;368.2(161.15);377.93(226.43);-0.06
+PEF b;386.44(149.11);378.26(243.33);0.05
+COPD type;1.67(0.71);1.69(0.68);-0.03
+Race;1.38(1.01);1.39(0.69);-0.01
